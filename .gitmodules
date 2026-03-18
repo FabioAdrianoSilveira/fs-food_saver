@@ -1,0 +1,3 @@
+[submodule "fs-food_saver"]
+	path = fs-food_saver
+	url = https://github.com/FabioAdrianoSilveira/fs-food_saver
