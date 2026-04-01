@@ -1,0 +1,2 @@
+O projeto Food Saver se trata de um aplicativo web de E-Commerce focado em venda de alimentos perecíveis próximos a validade que têm como objetivo conectar lojistas buscando vender mais barato para evitar a perda de mercadoria a clientes que buscam comprar alimentos mais baratos, assim ajudando ambas as artes enquanto combate o disperdício de alimentos.
+O projeto estpa sendo desenvolvido seguindos o processo de desenvolvimento SpinOff
