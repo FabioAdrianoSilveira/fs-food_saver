@@ -10,7 +10,7 @@ Food Saver é um aplicativo web de E-Commerce focado em venda de alimentos perec
 
 ### :file_folder: Requisitos
 
-- :file_folder: Caso de Uso \
+- :file_folder: Caso de Uso
 - :file_folder: Prototipo
 - FS - Visão.docx
 
