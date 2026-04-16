@@ -1,6 +1,6 @@
 # Food Saver
 
-![project status](https://img.shields.io/badge/Development-PROGRESSING-00FF00)
+![project status](https://img.shields.io/badge/Development-PROGRESSING-1F6F5F)
 
 Food Saver é um aplicativo web de E-Commerce focado em venda de alimentos perecíveis próximos à validade. O objetivo do sistema é ser uma plataforma que conecta lojistas buscando vender mais barato para evitar a perda de alimento perecível a clientes que buscam comprar esses alimentos com preços mais acessíveis, assim ajudando ambas as partes enquanto combate o desperdício.
 
@@ -19,6 +19,8 @@ Food Saver é um aplicativo web de E-Commerce focado em venda de alimentos perec
 - FS - Analise e Design.asta
 
 ### :file_folder: Implementacao
+
+- :file_folder: [fs-code](3.Implementacao/fs-code/)
 
 ### :file_folder: Teste
 
