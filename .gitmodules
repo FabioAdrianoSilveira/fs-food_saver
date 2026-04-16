@@ -1,3 +1,3 @@
-[submodule "fs-food_saver"]
-	path = fs-food_saver
+[submodule "3.Implementacao/food_saver"]
+	path = 3.Implementacao/food_saver
 	url = https://github.com/FabioAdrianoSilveira/fs-food_saver
