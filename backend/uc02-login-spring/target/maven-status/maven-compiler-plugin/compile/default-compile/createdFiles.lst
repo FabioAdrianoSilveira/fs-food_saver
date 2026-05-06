@@ -1,0 +1,5 @@
+com\foodsaver\FoodSaverApplication.class
+com\foodsaver\service\AutenticacaoService.class
+com\foodsaver\controller\LoginController.class
+com\foodsaver\repository\UsuarioRepository.class
+com\foodsaver\model\Usuario.class
