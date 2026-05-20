@@ -1,3 +1,6 @@
 [submodule "3.Implementacao/fs-code"]
 	path = 3.Implementacao/fs-code
 	url = https://github.com/FabioAdrianoSilveira/fs-code
+[submodule "3.Implementacao/3.Implementacao"]
+	path = 3.Implementacao/3.Implementacao
+	url = https://github.com/FabioAdrianoSilveira/fs-code
