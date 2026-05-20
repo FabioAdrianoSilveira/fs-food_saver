@@ -1,0 +1,193 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f3f3;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  width: clamp(70px, 10vw, 120px);
+  margin-bottom: 25px;
+}
+
+/* CARD LOGIN */
+.card {
+  width: 100%;
+  max-width: 420px;
+
+  background: white;
+  padding: clamp(24px, 4vw, 40px);
+
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+/* TITULO */
+.card h1 {
+  text-align: center;
+  color: #114d25;
+  font-size: clamp(1.6rem, 3vw, 2rem);
+}
+
+.card p {
+  text-align: center;
+  color: #666;
+  margin-top: 8px;
+  margin-bottom: 28px;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+/* FORM */
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* LABEL */
+.card label {
+  margin-bottom: 8px;
+  margin-top: 14px;
+  color: #114d25;
+  font-size: 0.95rem;
+}
+
+/* INPUT */
+.card input {
+  width: 100%;
+  padding: 14px;
+
+  border: 1px solid #d5d5d5;
+  border-radius: 8px;
+
+  font-size: 1rem;
+  outline: none;
+
+  transition: 0.2s;
+}
+
+.card input:focus {
+  border-color: #114d25;
+  box-shadow: 0 0 0 3px rgba(17, 77, 37, 0.1);
+}
+
+/* ERRO */
+.erro {
+  color: red;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* BOTÃO */
+.card button[type="submit"] {
+  margin-top: 24px;
+  padding: 14px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #114d25;
+  color: white;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card button[type="submit"]:hover {
+  background: #0d3b1c;
+}
+
+/* RODAPÉ */
+.cadastro {
+  margin-top: 22px;
+  text-align: center;
+}
+
+.cadastro p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* LINK BOTÃO */
+.link-button {
+  background: none;
+  border: none;
+  color: #1e63ff;
+  font-size: 0.95rem;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVO TABLET */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+}
+
+/* RESPONSIVO CELULAR */
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  .card {
+    max-width: 100%;
+    padding: 22px;
+    border-radius: 12px;
+  }
+
+  .card h1 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .card input,
+  .card button {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .cadastro p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .link-button {
+    margin-left: 0;
+  }
+}
