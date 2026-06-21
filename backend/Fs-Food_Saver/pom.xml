@@ -8,7 +8,11 @@
     <groupId>com.foodsaver</groupId>
     <artifactId>uc02-login</artifactId>
     <version>1.0.0</version>
+<<<<<<< Updated upstream
     <name>FoodSaver UC02 Login</name>
+=======
+    <name>FoodSaver</name>
+>>>>>>> Stashed changes
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -22,15 +26,34 @@
         <start-class>com.foodsaver.FoodSaverApplication</start-class>
     </properties>
 
+<<<<<<< Updated upstream
     <dependencies>
 
         <!-- Spring Web -->
+=======
+   <dependencies>
+
+>>>>>>> Stashed changes
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+<<<<<<< Updated upstream
         <!-- Testes -->
+=======
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+>>>>>>> Stashed changes
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
