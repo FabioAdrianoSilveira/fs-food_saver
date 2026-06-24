@@ -7,6 +7,6 @@ import java.util.List;
 
 @Repository
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
-    // Dica UML: Método de busca customizado para atender o UC-07 (Pesquisar alimentos)
+    // Método de busca customizado para atender o UC-07 (Pesquisar alimentos)
     List<Produto> findByNomeContainingIgnoreCase(String nome);
 }

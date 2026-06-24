@@ -13,7 +13,7 @@ public class ProdutoService {
     @Autowired
     private ProdutoRepository produtoRepository;
 
-    // Dica UML: Este método realiza o fluxo principal (Main Flow) do UC-03.
+    // Este método realiza o fluxo principal (Main Flow) do UC-03.
     public Produto cadastrarProduto(Produto produto) {
         return produtoRepository.save(produto);
     }

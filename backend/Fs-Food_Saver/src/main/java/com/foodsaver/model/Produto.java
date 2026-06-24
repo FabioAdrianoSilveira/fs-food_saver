@@ -3,7 +3,7 @@ package com.foodsaver.model;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 
-// Dica UML: Entidade "Produto". Note que este atende ao UC-03 (Cadastrar produtos para venda).
+// Entidade "Produto". Note que este atende ao UC-03 (Cadastrar produtos para venda).
 @Entity
 @Table(name = "produtos")
 public class Produto {
@@ -21,7 +21,7 @@ public class Produto {
     @Column(nullable = false)
     private LocalDate dataValidade;
 
-    // Dica UML: Associação Muitos para 1 (*..1). 
+    // Associação Muitos para 1 (*..1). 
     // Reflete a seta de navegabilidade do Produto apontando para a Loja à qual ele pertence.
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "loja_id", nullable = false)

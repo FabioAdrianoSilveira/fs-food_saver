@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-// Dica UML: No diagrama de sequência do UC-01, esta é a classe "Controller/Controladora" de negócio 
+// No diagrama de sequência do UC-01, esta é a classe "Controller/Controladora" de negócio 
 // que orquestra a lógica antes de chamar o banco de dados.
 @Service
 public class LojaService {

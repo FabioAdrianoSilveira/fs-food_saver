@@ -3,7 +3,7 @@ package com.foodsaver.model;
 import jakarta.persistence.*;
 import java.util.List;
 
-// Dica UML: Esta classe representa a entidade "Loja" no Diagrama de Classes.
+// Esta classe representa a entidade "Loja" no Diagrama de Classes.
 // Os atributos mapeiam diretamente para os atributos da classe na UML.
 @Entity
 @Table(name = "lojas")
@@ -19,7 +19,7 @@ public class Loja {
     @Column(nullable = false, unique = true)
     private String cnpj;
 
-    // Dica UML: Relacionamento 1 para Muitos (1..*). 
+    // Relacionamento 1 para Muitos (1..*). 
     // Uma loja possui vários produtos. No diagrama de classes, verifique a multiplicidade entre Loja e Produto.
     @OneToMany(mappedBy = "loja", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Produto> produtos;

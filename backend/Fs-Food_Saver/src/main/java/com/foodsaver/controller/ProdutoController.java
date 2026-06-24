@@ -16,14 +16,14 @@ public class ProdutoController {
     @Autowired
     private ProdutoService produtoService;
 
-    // Dica Código: Rota para UC-03 (Lojista cadastra produto)
+    // Rota para UC-03 (Lojista cadastra produto)
     @PostMapping("/cadastrar")
     public ResponseEntity<Produto> cadastrar(@RequestBody Produto produto) {
         Produto novoProduto = produtoService.cadastrarProduto(produto);
         return new ResponseEntity<>(novoProduto, HttpStatus.CREATED);
     }
 
-    // Dica Código: Rota para UC-07 (Cliente pesquisa alimento específico)
+    // Rota para UC-07 (Cliente pesquisa alimento específico)
     @GetMapping("/pesquisar")
     public ResponseEntity<List<Produto>> pesquisar(@RequestParam String nome) {
         List<Produto> produtos = produtoService.buscarProdutosPorNome(nome);
