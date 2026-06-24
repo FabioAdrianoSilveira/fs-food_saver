@@ -2,6 +2,7 @@ package com.foodsaver.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 // Entidade "Produto". Note que este atende ao UC-03 (Cadastrar produtos para venda).
 @Entity
@@ -25,6 +26,7 @@ public class Produto {
     // Reflete a seta de navegabilidade do Produto apontando para a Loja à qual ele pertence.
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "loja_id", nullable = false)
+    @JsonIgnore
     private Loja loja;
 
     // Construtores, Getters e Setters

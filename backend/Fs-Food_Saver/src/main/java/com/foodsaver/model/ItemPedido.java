@@ -1,5 +1,5 @@
 package com.foodsaver.model;
-
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 // Esta classe é uma "Classe Associativa" no Diagrama de Classes.
@@ -24,6 +24,7 @@ public class ItemPedido {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "produto_id", nullable = false)
+    @JsonIgnore
     private Produto produto;
 
     // Construtores, Getters e Setters
